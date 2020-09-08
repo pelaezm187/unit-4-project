@@ -14,20 +14,25 @@
   
   .default {
     background-color: $color-4;
+     &:hover {background-color: $light-4}
   }
   
   .error {
     background-color: $color-5;
+     &:hover {background-color: $light-5}
   }
   
   .info {
     background-color: $color-6;
+      &:hover {background-color: $light-6}
   }
   
   .success {
     background-color: $color-7;
+     &:hover {background-color: $light-7}
   }
   
   .warning {
     background-color: $color-8;
+      &:hover {background-color: $light-8}
   }
